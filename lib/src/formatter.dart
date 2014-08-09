@@ -83,3 +83,13 @@ class PrettyPrintFormatter implements Formatter {
     return Future.forEach(hitmap.keys, emitOne).then((_) => buf);
   }
 }
+
+//class HtmlWriter {
+//
+//}
+//
+//class HtmlFormatter implements Formatter {
+//  Future<String> format(Map hitmap) {
+//
+//  }
+//}
